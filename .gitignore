@@ -1,0 +1,34 @@
+# Evita arquivos de ambiente virtual
+venv/
+.env/
+
+# Arquivos de configuração locais
+*.env
+*.ini
+*.cfg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# Banco de dados temporário
+*.sqlite3
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# VSCode e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos sensíveis
+config.py
+secrets.py
